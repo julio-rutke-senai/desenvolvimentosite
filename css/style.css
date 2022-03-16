@@ -1,0 +1,22 @@
+body{
+    background-color: #009;
+    margin: 12px;
+}
+
+p{
+    width: 100%;
+    background-color: aqua;
+}
+
+ol{
+    background-color: blueviolet;
+}
+
+#resumo{
+    background-color: darkgreen;
+}
+
+.teste{
+    background-color: crimson;
+    height: 150;
+}
