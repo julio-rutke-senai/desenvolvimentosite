@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de Imagens</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>Galeria de Imagens</h1>
+  
+  <div class="gallery">
+    <div id="images">
+      <img src="img/imagem1.jpeg" alt="Imagem 1">
+      <img src="img/imagem2.jpeg" alt="Imagem 2">
+      <img src="img/imagem3.jpeg" alt="Imagem 3">
+    </div>
+    <div class="addImage">
+      <input id="imagemAdd" type="text" placeholder="Insira aqui a imagem que deseja incluir" />
+      <button id="btnAdd">Adicionar Imagem</button>
+    </div>
+  </div>
+  
+
+  <div class="modal">
+    <div class="modal-content">
+      <img id="modal-image" src="" alt="Imagem Ampliada">
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
