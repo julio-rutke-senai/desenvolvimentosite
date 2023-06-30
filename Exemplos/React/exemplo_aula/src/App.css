@@ -80,6 +80,32 @@ main{
   width: 100%;
 }
 
+nav {
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  background-color: #ccefe4;
+}
+
+nav ul li a{
+  display: block;
+  color: #125d45;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

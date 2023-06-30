@@ -6,7 +6,7 @@ export const Cadastro = (props) => {
 
     return  (
         <div id="cadastro">
-            <input placeholder='Informe sua Tarefa' onChange={(e) => setItem(e.target.value)} />
+            <input placeholder={props.place} onChange={(e) => setItem(e.target.value)} />
             <button onClick={() => props.handler(item)}>ADD</button>
         </div>
     );
